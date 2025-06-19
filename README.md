@@ -21,3 +21,10 @@ Không chỉ có giá trị về kinh tế mà cây tre còn gắn với nét đ
 - Trữ lượng khoảng 6.5 tỷ cây => sản lượng khai thác hàng năm khoảng 500-600 triệu cây.
 - Đáp ứng 10% nhu cầu lá tre và 55% nhu cầu măng tre của nội địa Việt Nam.
 - Kim ngạch xuất khẩu Lá tre đạt gần 900 triệu USD năm 2023.
+
+### MỤC TIÊU CỦA CÔNG TY
+
+- Công ty Cổ phần Tập đoàn Tre Thanh Phát phát triển mô hình:
+  • Trồng tre lấy lá, măng và các sản phẩm khác của tre.
+  • Kết hợp trồng cây dược liệu và nông sản dưới tán tre.
+  • Trồng rừng tầng cao ở các đồi/núi để bảo vệ môi trường và phát triển bền vững cho người dân địa phương.
