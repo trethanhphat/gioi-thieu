@@ -3,7 +3,7 @@
 ```mermaid
 flowchart TD
 CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành)"]
-    CEO --> |"Trực tiếp"| CFO["Chief Financial Officer (Giám đốc tài chính)"]
+    CEO --> |"Trực tiếp"| CFO[fa:fa-money "Chief Financial Officer (Giám đốc tài chính)"]
     CEO --> |"Trực tiếp"| CMO["Chief Marketing Officer (Giám đốc kinh doanh - Marketing)"]
     CEO --> |"Trực tiếp"| CTO["Chief Technology Officer (Giám đốc kỹ thuật)"]
     CEO --> |"Trực tiếp"| COO["Chief Operating Officer (Giám đốc sản xuất)"]
