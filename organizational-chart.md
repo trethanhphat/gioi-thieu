@@ -7,8 +7,13 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành)"]
     CEO --> |"Trực tiếp"| CMO["Chief Marketing Officer (Giám đốc kinh doanh - Marketing)"]
     CEO --> |"Trực tiếp"| CTO["Chief Technology Officer (Giám đốc kỹ thuật)"]
     CEO --> |"Trực tiếp"| COO["Chief Operating Officer (Giám đốc sản xuất)"]
-    CEO --> |"Trực tiếp"| RM1["Regional Manager 1 (Quản lý Vùng 1)"]
-    CEO --> |"Trực tiếp"| RM2["Regional Manager 2 (Quản lý Vùng 2)"]
+    %% Gom nhóm quản lý vùng
+    subgraph REG["Regional Managers"]
+        direction LR
+        RM1["Regional Manager 1 (Quản lý Vùng 1)"]
+        RM2["Regional Manager 2 (Quản lý Vùng 2)"]
+    end
+    CEO --> REG
 
     CTO --> ITM["Internal Technical Manager (Trưởng phòng Kỹ thuật Nội bộ)"]
 
