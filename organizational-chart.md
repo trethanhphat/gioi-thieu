@@ -8,6 +8,7 @@ A --> |"Trực tiếp"| D["Giám đốc kỹ thuật"]
 A --> |"Trực tiếp"| E["Giám đốc sản xuất"]
 A --> |"Trực tiếp"| F["Quản lý Vùng 1"]
 A --> |"Trực tiếp"| G["Quản lý Vùng 2"]
-D --> [Trưởng phòng Kỹ thuật Nội bộ]
+
+D --> ["Trưởng phòng Kỹ thuật Nội bộ"]
 
 ```
