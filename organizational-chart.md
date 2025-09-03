@@ -2,13 +2,14 @@
 
 ```mermaid
 flowchart TD
-A["Founder-CEO"] --> |"Trực tiếp"| B["Giám đốc tài chính"]
-A --> |"Trực tiếp"| C["Giám đốc kinh doanh - Marketing"]
-A --> |"Trực tiếp"| D["Giám đốc kỹ thuật"]
-A --> |"Trực tiếp"| E["Giám đốc sản xuất"]
-A --> |"Trực tiếp"| F["Quản lý Vùng 1"]
-A --> |"Trực tiếp"| G["Quản lý Vùng 2"]
+CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành)"]
+    CEO --> |"Trực tiếp"| CFO["Chief Financial Officer (Giám đốc tài chính)"]
+    CEO --> |"Trực tiếp"| CMO["Chief Marketing Officer (Giám đốc kinh doanh - Marketing)"]
+    CEO --> |"Trực tiếp"| CTO["Chief Technology Officer (Giám đốc kỹ thuật)"]
+    CEO --> |"Trực tiếp"| COO["Chief Operating Officer (Giám đốc sản xuất)"]
+    CEO --> |"Trực tiếp"| RM1["Regional Manager 1 (Quản lý Vùng 1)"]
+    CEO --> |"Trực tiếp"| RM2["Regional Manager 2 (Quản lý Vùng 2)"]
 
-D --> ["Trưởng phòng Kỹ thuật Nội bộ"]
+    CTO --> ITM["Internal Technical Manager (Trưởng phòng Kỹ thuật Nội bộ)"]
 
 ```
