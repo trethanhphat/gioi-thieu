@@ -12,4 +12,16 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành)"]
 
     CTO --> ITM["Internal Technical Manager (Trưởng phòng Kỹ thuật Nội bộ)"]
 
+%% 🎨 Màu sắc
+    style CEO fill:#ffcc00,stroke:#333,stroke-width:2px
+    style CFO fill:#99ccff,stroke:#333,stroke-width:1px
+    style CMO fill:#ff9999,stroke:#333,stroke-width:1px
+    style CTO fill:#99ff99,stroke:#333,stroke-width:1px
+    style COO fill:#ffcc99,stroke:#333,stroke-width:1px
+    style RM1 fill:#cccccc,stroke:#333,stroke-width:1px
+    style RM2 fill:#cccccc,stroke:#333,stroke-width:1px
+    style ITM fill:#ccffcc,stroke:#333,stroke-width:1px
+
+%% ép 2 node nằm cùng hàng
+    {rank=same; RM1; RM2}
 ```
