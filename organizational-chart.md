@@ -27,6 +27,5 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành)"]
     style RM2 fill:#cccccc,stroke:#333,stroke-width:1px
     style ITM fill:#ccffcc,stroke:#333,stroke-width:1px
 
-%% ép 2 node nằm cùng hàng
-    {rank=same; RM1; RM2}
+
 ```
