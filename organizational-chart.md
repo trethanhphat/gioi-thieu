@@ -11,9 +11,9 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành): Anh Mạc Tám"]
     subgraph REG["Regional Managers (Các Quản lý vùng)"]
         direction LR
         RM1["Regional Manager 1 (Quản lý Vùng 1 Xã Đan Thượng - Phú Thọ)"]
-        RM1 --> RM1-NAME["Xã Đan Thượng (Phú Thọ)"]
-        RM1 --> RM1-OWNER["Anh Thái"]
-        RM1 --> RM1-MAN["Anh Trần Sơn"]
+        RM1 --> |"Tên"| RM1-NAME["Xã Đan Thượng (Phú Thọ)"]
+        RM1 --> |"Sở hữu"|RM1-OWNER["Anh Thái"]
+        RM1 --> |"Quản lý"|RM1-MAN["Anh Trần Sơn"]
 
         RM2["Regional Manager 2 (Quản lý Vùng 2 Phường Hòa Bình)"]
         RM2 --> RM2-NAME["Phường Kỳ Sơn (Hòa Bình)"]
