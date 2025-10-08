@@ -12,18 +12,18 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành): Anh Mạc Tám"]
         direction LR
         RM1["Regional Manager 1 (Quản lý Vùng 1 Xã Đan Thượng - Phú Thọ)"]
         RM1 --> |"Tên"| RM1-NAME["Xã Đan Thượng (Phú Thọ)"]
-        RM1 --> |"Sở hữu"|RM1-OWNER["Anh Thái"]
-        RM1 --> |"Quản lý"|RM1-MAN["Anh Trần Sơn"]
+        RM1 --> |"Sở hữu"| RM1-OWNER["Anh Thái"]
+        RM1 --> |"Quản lý"| RM1-MAN["Anh Trần Sơn"]
 
         RM2["Regional Manager 2 (Quản lý Vùng 2 Phường Hòa Bình)"]
-        RM2 --> RM2-NAME["Phường Kỳ Sơn (Hòa Bình)"]
-        RM2 --> RM2-MAN["Đang cập nhật"]
-        RM2 --> RM2-OWNER["Anh Hùng"]
+        RM2 --> |"Tên"| RM2-NAME["Phường Kỳ Sơn (Hòa Bình)"]
+        RM2 --> |"Sở hữu"| RM2-OWNER["Anh Hùng"]
+        RM2 --> |"Quản lý"| RM2-MAN["Đang cập nhật"]
 
         RM3["Regional Manager 3 (Quản lý Vùng 3 Phường Kỳ Sơn)"]
-        RM3 --> RM3-NAME["Phường Hòa Bình (Hòa Bình)"]
-        RM3 --> RM3-MAN["Chú Châm"]
-        RM3 --> RM3-OWNER["Anh Hùng"]
+        RM3 --> |"Tên"| RM3-NAME["Phường Hòa Bình (Hòa Bình)"]
+        RM3 --> |"Sở hữu"| RM3-OWNER["Anh Hùng"]
+        RM3 --> |"Quản lý"| RM3-MAN["Chú Châm"]
 
     end
     CEO --> REG
