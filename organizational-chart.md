@@ -8,14 +8,23 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành): Anh Mạc Tám"]
     CEO --> |"Trực tiếp"| CTO["Chief Technology Officer (Giám đốc kỹ thuật)"]
     CEO --> |"Trực tiếp"| COO["Chief Operating Officer (Giám đốc sản xuất)"]
     %% Gom nhóm quản lý vùng
-    subgraph REG["Regional Managers"]
+    subgraph REG["Regional Managers (Các Quản lý vùng)"]
         direction LR
         RM1["Regional Manager 1 (Quản lý Vùng 1 Xã Đan Thượng - Phú Thọ)"]
-        RM1 --> NAME-RM1["Anh Trần Sơn"]
+        RM1 --> RM1-NAME["Xã Đan Thượng (Phú Thọ)"]
+        RM1 --> RM1-OWNER["Anh Thái"]
+        RM1 --> RM1-MAN["Anh Trần Sơn"]
+
         RM2["Regional Manager 2 (Quản lý Vùng 2 Phường Hòa Bình)"]
-        RM2 --> NAME-RM2["Đang cập nhật"]
+        RM2 --> RM2-NAME["Phường Kỳ Sơn (Hòa Bình)"]
+        RM2 --> RM2-MAN["Đang cập nhật"]
+        RM2 --> RM2-OWNER["Anh Hùng"]
+
         RM3["Regional Manager 3 (Quản lý Vùng 3 Phường Kỳ Sơn)"]
-        RM3 --> NAME-RM3["Chú Châm"]
+        RM3 --> RM3-NAME["Phường Hòa Bình (Hòa Bình)"]
+        RM3 --> RM3-MAN["Chú Châm"]
+        RM3 --> RM3-OWNER["Anh Hùng"]
+
     end
     CEO --> REG
 
