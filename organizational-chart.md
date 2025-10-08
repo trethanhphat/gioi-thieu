@@ -10,9 +10,12 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành): Anh Mạc Tám"]
     %% Gom nhóm quản lý vùng
     subgraph REG["Regional Managers"]
         direction LR
-        RM1["Regional Manager 1 (Quản lý Vùng 1 Xã Đan Thượng - Phú Thọ): Anh Trần Sơn"]
-        RM2["Regional Manager 2 (Quản lý Vùng 2 Phường Hòa Bình): Đang cập nhật"]
-        RM3["Regional Manager 3 (Quản lý Vùng 3 Phường Kỳ Sơn): Chú Châm"]
+        RM1["Regional Manager 1 (Quản lý Vùng 1 Xã Đan Thượng - Phú Thọ)"]
+        RM1 --> NAME-RM1["Anh Trần Sơn"]
+        RM2["Regional Manager 2 (Quản lý Vùng 2 Phường Hòa Bình)"]
+        RM2 -->["Đang cập nhật"]
+        RM3["Regional Manager 3 (Quản lý Vùng 3 Phường Kỳ Sơn)"]
+        RM3 --> NAME-RM3["Chú Châm"]
     end
     CEO --> REG
 
