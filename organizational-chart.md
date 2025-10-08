@@ -9,7 +9,7 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành): Anh Mạc Tám"]
     CEO --> |"Trực tiếp"| COO["Chief Operating Officer (Giám đốc sản xuất)"]
     %% Gom nhóm quản lý vùng
     subgraph REG["Regional Managers"]
-        direction TD
+        direction LR
         RM1["Regional Manager 1 (Quản lý Vùng 1 Xã Đan Thượng - Phú Thọ): Anh Trần Sơn"]
         RM2["Regional Manager 2 (Quản lý Vùng 2 Phường Hòa Bình): Đang cập nhật"]
         RM3["Regional Manager 3 (Quản lý Vùng 3 Phường Kỳ Sơn): Chú Châm"]
