@@ -11,22 +11,22 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành): Anh Mạc Tám"]
     subgraph REG["Regional Managers (Các Quản lý vùng)"]
         direction LR
         RM1["Regional Manager 1 (Quản lý Vùng 1)"]
-        RM1 --> |"Tên"| RM1-NAME["Xã Đan Thượng (Phú Thọ)"]
+        RM1 --> |"Địa chỉ"| RM1-NAME["Xã Đan Thượng (Phú Thọ)"]
         RM1 --> |"Sở hữu"| RM1-OWNER["Anh Thái"]
         RM1 --> |"Quản lý"| RM1-MAN["Anh Trần Sơn"]
 
         RM2["Regional Manager 2 (Quản lý Vùng 2)"]
-        RM2 --> |"Tên"| RM2-NAME["Phường Kỳ Sơn (Hòa Bình)"]
+        RM2 --> |"Địa chỉ"| RM2-NAME["Phường Kỳ Sơn (Hòa Bình)"]
         RM2 --> |"Sở hữu"| RM2-OWNER["Anh Hùng"]
         RM2 --> |"Quản lý"| RM2-MAN["Đang cập nhật"]
 
         RM3["Regional Manager 3 (Quản lý Vùng 3)"]
-        RM3 --> |"Tên"| RM3-NAME["Phường Hòa Bình (Hòa Bình)"]
+        RM3 --> |"Địa chỉ"| RM3-NAME["Phường Hòa Bình (Hòa Bình)"]
         RM3 --> |"Sở hữu"| RM3-OWNER["Anh Hùng"]
         RM3 --> |"Quản lý"| RM3-MAN["Chú Châm"]
 
         RM4["Regional Manager 4 (Quản lý Vùng 4)"]
-        RM4 --> |"Tên"| RM4-NAME["Xã Trung Giã (Bắc Sơn, Sóc Sơn)"]
+        RM4 --> |"Địa chỉ"| RM4-NAME["Xã Trung Giã (Bắc Sơn, Sóc Sơn)"]
         RM4 --> |"Sở hữu"| RM4-OWNER["Anh Chinh"]
         RM4 --> |"Quản lý"| RM4-MAN["Anh Hưng"]
 
