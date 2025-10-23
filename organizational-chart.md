@@ -25,6 +25,11 @@ CEO["Founder-CEO (Nhà sáng lập-Giám đốc điều hành): Anh Mạc Tám"]
         RM3 --> |"Sở hữu"| RM3-OWNER["Anh Hùng"]
         RM3 --> |"Quản lý"| RM3-MAN["Chú Châm"]
 
+        RM4["Regional Manager 4 (Quản lý Vùng 4)"]
+        RM4 --> |"Tên"| RM4-NAME["Xã Trung Giã (Bắc Sơn, Sóc Sơn)"]
+        RM4 --> |"Sở hữu"| RM4-OWNER["Anh Chinh"]
+        RM4 --> |"Quản lý"| RM4-MAN["Anh Hưng"]
+
     end
     CEO --> REG
 
